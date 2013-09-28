@@ -1,0 +1,7 @@
+*~
+*.bak
+.DS_Store
+node_modules
+lib/*.js
+.template
+npm-debug.log

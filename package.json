@@ -1,0 +1,20 @@
+{
+  "name": "gzip-brunch",
+  "version": "1.0.0",
+  "description": "Adds gzip support to brunch.",
+  "author": "Kohei Hasegawa",
+  "homepage": "https://github.com/banyan/gzip-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:banyan/gzip-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
+    "test": "node_modules/.bin/mocha --compilers coffee:coffee-script --require test/common.js"
+  },
+  "devDependencies": {
+    "mocha": "1.13.0",
+    "chai": "1.8.0"
+  }
+}
