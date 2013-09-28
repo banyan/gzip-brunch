@@ -6,14 +6,12 @@ The plugin will gzipfy HTML files, JS files and CSS files.
 
 ## Usage
 
-Install the plugin via npm with `npm install --save gzip-brunch`.
+Install the plugin via npm with:
 
-Or, do manual install:
+```
+$ npm install --save gzip-brunch
+```
 
-* Add `"gzip-brunch": "x.y.z"` to `package.json` of your brunch app.
-  Pick a plugin version that corresponds to your minor (y) brunch version.
-* If you want to use git version of plugin, add
-`"gzip-brunch": "git+ssh://git@github.com:banyan/gzip-brunch.git"`.
 
 ## Config
 
