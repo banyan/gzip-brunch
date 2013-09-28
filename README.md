@@ -1,4 +1,4 @@
-## gzip-brunch
+# gzip-brunch [![Build Status](https://secure.travis-ci.org/banyan/gzip-brunch.png?branch=master)](http://travis-ci.org/banyan/gzip-brunch)
 
 Adds gzip support to [brunch](http://brunch.io).
 
@@ -28,10 +28,18 @@ config =
         stylesheet: 'stylesheets'
 ```
 
-### Default
+* default
 
-* `gzip.paths.javascript`: 'javascripts'
-* `gzip.paths.stylesheet:`: 'stylesheets'
+<table>
+  <tr>
+    <th>gzip.paths.javascript</th>
+    <td>javascripts</td>
+  </tr>
+  <tr>
+    <th>gzip.paths.stylesheet</th>
+    <td>stylesheets</td>
+  </tr>
+</table>
 
 ## CHANGELOG
 
