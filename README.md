@@ -12,6 +12,11 @@ Install the plugin via npm with:
 $ npm install --save gzip-brunch
 ```
 
+This plugin works only when optimized option is passed.
+
+```
+$ brunch build --production
+```
 
 ## Config
 
