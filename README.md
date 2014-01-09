@@ -20,7 +20,9 @@ $ brunch build --production
 
 ## Config
 
-To specify gzip options, use `config.plugins.gzip` object, for example:
+To specify gzip options, use `config.plugins.gzip` object.
+
+### Change JS path or CSS path
 
 ```coffeescript
 config =
@@ -45,6 +47,10 @@ config =
 </table>
 
 ## CHANGELOG
+
+### gzip-brunch 1.0.1 (10 Jan 2014)
+
+* Update docs
 
 ### gzip-brunch 1.0.0 (29 Sep 2013)
 
