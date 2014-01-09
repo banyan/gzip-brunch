@@ -48,11 +48,11 @@ config =
 
 ## CHANGELOG
 
-### gzip-brunch 1.0.1 (10 Jan 2014)
+### 1.0.1 (10 Jan 2014)
 
 * Update docs
 
-### gzip-brunch 1.0.0 (29 Sep 2013)
+### 1.0.0 (29 Sep 2013)
 
 * Initial release
 
