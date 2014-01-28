@@ -48,6 +48,10 @@ config =
 
 ## CHANGELOG
 
+### 1.0.4 (28 Jan 2014)
+
+* Bumped for https://github.com/banyan/gzip-brunch/issues/2
+
 ### 1.0.1 (10 Jan 2014)
 
 * Update docs
