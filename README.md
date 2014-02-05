@@ -48,7 +48,7 @@ config =
 
 ## CHANGELOG
 
-### 1.1.0 (06 Feb 2014)
+### 1.1.0 (6 Feb 2014)
 
 * Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
 
