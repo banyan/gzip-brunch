@@ -1,6 +1,6 @@
 {
   "name": "gzip-brunch",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Adds gzip support to brunch.",
   "author": "Kohei Hasegawa",
   "homepage": "https://github.com/banyan/gzip-brunch",
