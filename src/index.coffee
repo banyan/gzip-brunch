@@ -37,6 +37,8 @@ module.exports = class Gzip
     gzip   = zlib.createGzip level: zlib.Z_BEST_COMPRESSION
     input  = fs.createReadStream "#{path}/#{file}"
     output = fs.createWriteStream "#{path}/#{file}.gz"
+    # Delete the original file generated
+    fs.unlinkSync("" + path + "/" + file)
     input.pipe(gzip).pipe output
 
   _joinToPublic: (path) =>
