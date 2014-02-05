@@ -48,9 +48,13 @@ config =
 
 ## CHANGELOG
 
+### 1.1.0 (06 Feb 2014)
+
+* Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
+
 ### 1.0.4 (28 Jan 2014)
 
-* Bumped for https://github.com/banyan/gzip-brunch/issues/2
+* Bumped for [#2](https://github.com/banyan/gzip-brunch/issues/2)
 
 ### 1.0.1 (10 Jan 2014)
 
