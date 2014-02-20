@@ -31,6 +31,7 @@ config =
       paths:
         javascript: 'javascripts'
         stylesheet: 'stylesheets'
+      removeOriginalFiles: false
 ```
 
 * default
@@ -43,6 +44,10 @@ config =
   <tr>
     <th>gzip.paths.stylesheet</th>
     <td>stylesheets</td>
+  </tr>
+  <tr>
+    <th>gzip.removeOriginalFiles:</th>
+    <td>false</td>
   </tr>
 </table>
 

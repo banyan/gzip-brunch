@@ -39,7 +39,7 @@ module.exports = class Gzip
     input  = fs.createReadStream input_path
     output = fs.createWriteStream "#{path}/#{file}.gz"
     # Delete the original file generated
-    if fs.existsSync(input_path)
+    if !!@options.removeOriginalFiles and fs.existsSync(input_path)
       fs.unlinkSync("" + path + "/" + file)
     input.pipe(gzip).pipe output
 
