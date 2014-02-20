@@ -53,21 +53,11 @@ config =
 
 ## CHANGELOG
 
-### 1.1.0 (6 Feb 2014)
-
-* Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
-
-### 1.0.4 (28 Jan 2014)
-
-* Bumped for [#2](https://github.com/banyan/gzip-brunch/issues/2)
-
-### 1.0.1 (10 Jan 2014)
-
-* Update docs
-
-### 1.0.0 (29 Sep 2013)
-
-* Initial release
+* 1.2.0 (6 Feb 2014)  - Changed [#3](https://github.com/banyan/gzip-brunch/pull/3) behaviour as optionize. Dont remove original files unless removeOriginalFiles is true.
+* 1.1.0 (6 Feb 2014)  - Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
+* 1.0.4 (28 Jan 2014) - Bumped for [#2](https://github.com/banyan/gzip-brunch/issues/2)
+* 1.0.1 (10 Jan 2014) - Update docs
+* 1.0.0 (29 Sep 2013) - Initial release
 
 ## License
 
