@@ -32,6 +32,7 @@ config =
         javascript: 'javascripts'
         stylesheet: 'stylesheets'
       removeOriginalFiles: false
+      renameGzipFilesToOriginalFiles: false
 ```
 
 * default
@@ -47,6 +48,10 @@ config =
   </tr>
   <tr>
     <th>gzip.removeOriginalFiles</th>
+    <td>false</td>
+  </tr>
+  <tr>
+    <th>gzip.renameGzipFilesToOriginalFiles</th>
     <td>false</td>
   </tr>
 </table>
