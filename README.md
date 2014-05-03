@@ -58,8 +58,9 @@ config =
 
 ## CHANGELOG
 
+* 1.3.0 (03 May 2014) - Enhancement for renaming option [#6](https://github.com/banyan/gzip-brunch/pull/6).
 * 1.2.0 (20 Feb 2014) - Changed [#3](https://github.com/banyan/gzip-brunch/pull/3) behaviour as optionize. See [#5](https://github.com/banyan/gzip-brunch/pull/5)
-* 1.1.0 (6 Feb 2014)  - Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
+* 1.1.0 (06 Feb 2014) - Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
 * 1.0.4 (28 Jan 2014) - Bumped for [#2](https://github.com/banyan/gzip-brunch/issues/2)
 * 1.0.1 (10 Jan 2014) - Update docs
 * 1.0.0 (29 Sep 2013) - Initial release
