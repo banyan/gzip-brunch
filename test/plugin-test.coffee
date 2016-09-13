@@ -14,8 +14,8 @@ describe "Plugin", ->
     context 'when default', ->
       it "should have targets", ->
         expect(@plugin.targets[0].path).to.be.eql 'public'
-        expect(@plugin.targets[1].path).to.be.eql 'public/javascripts'
-        expect(@plugin.targets[2].path).to.be.eql 'public/stylesheets'
+        expect(@plugin.targets[1].path).to.be.eql 'public'
+        expect(@plugin.targets[2].path).to.be.eql 'public'
 
     context 'when configured', ->
       beforeEach ->
