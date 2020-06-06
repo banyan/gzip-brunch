@@ -58,6 +58,7 @@ config =
 
 ## CHANGELOG
 
+* 2.0.0 (06 Jun 2020) - Add support for SVG and ICO files [#10](Add support for SVG and ICO files), Fixing default values path [#7](https://github.com/banyan/gzip-brunch/pull/7)
 * 1.3.0 (03 May 2014) - Enhancement for renaming option [#6](https://github.com/banyan/gzip-brunch/pull/6).
 * 1.2.0 (20 Feb 2014) - Changed [#3](https://github.com/banyan/gzip-brunch/pull/3) behaviour as optionize. See [#5](https://github.com/banyan/gzip-brunch/pull/5)
 * 1.1.0 (06 Feb 2014) - Original files are deleted when compressing is done: [#3](https://github.com/banyan/gzip-brunch/pull/3)
