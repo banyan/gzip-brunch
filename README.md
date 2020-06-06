@@ -59,7 +59,7 @@ config =
 ## CHANGELOG
 
 * 2.0.0 (06 Jun 2020)
-  * [Add support for SVG and ICO files](Add support for SVG and ICO files)
+  * [Add support for SVG and ICO files](https://github.com/banyan/gzip-brunch/pull/10)
   * [Fixing default values path](https://github.com/banyan/gzip-brunch/pull/7)
 * 1.3.0 (03 May 2014)
   * Enhancement for renaming option [#6](https://github.com/banyan/gzip-brunch/pull/6).
