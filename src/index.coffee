@@ -20,6 +20,14 @@ module.exports = class Gzip
         path: @_joinToPublic @options.paths?.stylesheet or 'stylesheets'
         ext:  /\.css$/
       }
+      {
+        path: @_joinToPublic @options.paths?.image or 'images'
+        ext:  /\.svg$/
+      }
+      {
+        path: @_joinToPublic @options.paths?.root or ''
+        ext:  /\.ico$/
+      }
     ]
 
   onCompile: (generatedFiles) ->
