@@ -1,4 +1,4 @@
-# gzip-brunch [![Build Status](https://secure.travis-ci.org/banyan/gzip-brunch.png?branch=master)](http://travis-ci.org/banyan/gzip-brunch)
+# gzip-brunch <a href="https://github.com/banyan/gzip-brunch/actions?query=workflow%3ACI"><img src="https://github.com/banyan/gzip-brunch/workflows/CI/badge.svg" /></a>
 
 Adds gzip support to [brunch](http://brunch.io).
 
