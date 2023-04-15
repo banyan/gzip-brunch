@@ -15,7 +15,7 @@
     "test": "node_modules/.bin/_mocha"
   },
   "devDependencies": {
-    "mocha": "1.13.0",
+    "mocha": "10.2.0",
     "chai": "1.8.0",
     "coffee-script": "latest"
   }
